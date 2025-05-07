@@ -1,0 +1,1 @@
+Print("I don't like Python syntax, but it's a cool and powerful language")
