@@ -9,6 +9,7 @@ end = int(input("Enter the end of range: "))
 
 print(f"Prime numbers between {start} and {end}:")
 
+# go through our range the user defined, if the number is 1, then it is prime, then loop through numbers up to half of itself because anything greater than that and you wont find a divisible value anyway
 for num in range(start, end + 1):
     if num < 2:
         continue
