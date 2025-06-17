@@ -85,11 +85,11 @@ def saveResults(results):
 #load our prices in from our json file after reversing the data so that we're looking at 1 year ago first, going up until today
 def load_prices_from_csv(ticker):
     filename = f"{ticker}.csv"
-    df = pd.read_csv(filename)
-    df = df[::-1]  # reverse
+    dfile = pd.read_csv(filename)
+    dfile = dfile[::-1]  # reverse
     # strip "$" and convert to float
-    df["Close/Last"] = df["Close/Last"].str.replace('$', '').astype(float)
-    prices = df["Close/Last"].round(2).tolist()
+    dfile["Close/Last"] = dfile["Close/Last"].str.replace('$', '').astype(float)
+    prices = dfile["Close/Last"].round(2).tolist()
     return prices
 
 # Update with your 10 tickers
