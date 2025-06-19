@@ -1,0 +1,509 @@
+{
+  "analysis_date": "2025-06-19 22:00:06",
+  "cryptocurrencies_analyzed": 6,
+  "best_performers": {
+    "best_cryptocurrency": "ripple",
+    "best_strategy": "mean_reversion",
+    "best_return_percent": 7.36
+  },
+  "detailed_results": {
+    "bitcoin": {
+      "cryptocurrency": "bitcoin",
+      "data_points": 30,
+      "latest_price": 104365.33174851,
+      "latest_date": "2025-06-19",
+      "strategies": {
+        "sma": {
+          "strategy": "SMA",
+          "profit": -4065.53,
+          "percent_return": -3.73,
+          "num_trades": 8,
+          "trades": [
+            {
+              "date": "2025-05-26",
+              "action": "BUY",
+              "price": 108861.81037744
+            },
+            {
+              "date": "2025-05-29",
+              "action": "SELL",
+              "price": 107838.184311,
+              "profit": -1023.63
+            },
+            {
+              "date": "2025-06-03",
+              "action": "BUY",
+              "price": 105884.74263221
+            },
+            {
+              "date": "2025-06-05",
+              "action": "SELL",
+              "price": 104812.91821881,
+              "profit": -1071.82
+            },
+            {
+              "date": "2025-06-08",
+              "action": "BUY",
+              "price": 105681.45461418
+            },
+            {
+              "date": "2025-06-13",
+              "action": "SELL",
+              "price": 105979.22902376,
+              "profit": 297.77
+            },
+            {
+              "date": "2025-06-17",
+              "action": "BUY",
+              "price": 106951.27201815
+            },
+            {
+              "date": "2025-06-18",
+              "action": "SELL",
+              "price": 104683.42479836,
+              "profit": -2267.85
+            }
+          ],
+          "current_signal": "HOLD"
+        },
+        "mean_reversion": {
+          "strategy": "Mean Reversion",
+          "profit": 4516.16,
+          "percent_return": 4.27,
+          "num_trades": 3,
+          "trades": [
+            {
+              "date": "2025-05-30",
+              "action": "BUY",
+              "price": 105745.41660358
+            },
+            {
+              "date": "2025-06-10",
+              "action": "SELL",
+              "price": 110261.57485948,
+              "profit": 4516.16
+            },
+            {
+              "date": "2025-06-15",
+              "action": "BUY",
+              "price": 105482.90611629
+            }
+          ],
+          "current_signal": "HOLD"
+        }
+      },
+      "statistics": {
+        "price_stats": {
+          "mean": 106671.4608,
+          "median": 105931.9858,
+          "std_dev": 2249.5771,
+          "min": 101650.7388,
+          "max": 111560.3569
+        },
+        "volume_stats": {
+          "mean": 32102208434.36,
+          "median": 30118163804.86,
+          "std_dev": 11402467016.11
+        },
+        "market_cap_stats": {
+          "mean": 2106070673431.62,
+          "median": 2106070673431.62,
+          "std_dev": 44312462642.76
+        }
+      }
+    },
+    "ethereum": {
+      "cryptocurrency": "ethereum",
+      "data_points": 30,
+      "latest_price": 2510.14469325,
+      "latest_date": "2025-06-19",
+      "strategies": {
+        "sma": {
+          "strategy": "SMA",
+          "profit": -357.6,
+          "percent_return": -13.43,
+          "num_trades": 6,
+          "trades": [
+            {
+              "date": "2025-05-28",
+              "action": "BUY",
+              "price": 2662.09405682
+            },
+            {
+              "date": "2025-05-31",
+              "action": "SELL",
+              "price": 2524.47623481,
+              "profit": -137.62
+            },
+            {
+              "date": "2025-06-03",
+              "action": "BUY",
+              "price": 2609.73725396
+            },
+            {
+              "date": "2025-06-06",
+              "action": "SELL",
+              "price": 2421.60110376,
+              "profit": -188.14
+            },
+            {
+              "date": "2025-06-10",
+              "action": "BUY",
+              "price": 2685.00018504
+            },
+            {
+              "date": "2025-06-13",
+              "action": "SELL",
+              "price": 2653.15896845,
+              "profit": -31.84
+            }
+          ],
+          "current_signal": "HOLD"
+        },
+        "mean_reversion": {
+          "strategy": "Mean Reversion",
+          "profit": 160.52,
+          "percent_return": 6.36,
+          "num_trades": 3,
+          "trades": [
+            {
+              "date": "2025-05-31",
+              "action": "BUY",
+              "price": 2524.47623481
+            },
+            {
+              "date": "2025-06-10",
+              "action": "SELL",
+              "price": 2685.00018504,
+              "profit": 160.52
+            },
+            {
+              "date": "2025-06-14",
+              "action": "BUY",
+              "price": 2577.04861753
+            }
+          ],
+          "current_signal": "HOLD"
+        }
+      },
+      "statistics": {
+        "price_stats": {
+          "mean": 2579.5656,
+          "median": 2553.3979,
+          "std_dev": 84.5897,
+          "min": 2421.6011,
+          "max": 2808.5032
+        },
+        "volume_stats": {
+          "mean": 20618102891.85,
+          "median": 18940421297.89,
+          "std_dev": 8464298948.22
+        },
+        "market_cap_stats": {
+          "mean": 308235965319.49,
+          "median": 308235965319.49,
+          "std_dev": 10202127041.02
+        }
+      }
+    },
+    "litecoin": {
+      "cryptocurrency": "litecoin",
+      "data_points": 30,
+      "latest_price": 84.98183701,
+      "latest_date": "2025-06-19",
+      "strategies": {
+        "sma": {
+          "strategy": "SMA",
+          "profit": -6.85,
+          "percent_return": -7.64,
+          "num_trades": 6,
+          "trades": [
+            {
+              "date": "2025-06-04",
+              "action": "BUY",
+              "price": 89.6438033
+            },
+            {
+              "date": "2025-06-05",
+              "action": "SELL",
+              "price": 88.05528756,
+              "profit": -1.59
+            },
+            {
+              "date": "2025-06-08",
+              "action": "BUY",
+              "price": 88.38406877
+            },
+            {
+              "date": "2025-06-09",
+              "action": "SELL",
+              "price": 87.23364804,
+              "profit": -1.15
+            },
+            {
+              "date": "2025-06-10",
+              "action": "BUY",
+              "price": 90.68092171
+            },
+            {
+              "date": "2025-06-13",
+              "action": "SELL",
+              "price": 86.57094135,
+              "profit": -4.11
+            }
+          ],
+          "current_signal": "HOLD"
+        },
+        "mean_reversion": {
+          "strategy": "Mean Reversion",
+          "profit": -4.13,
+          "percent_return": -4.36,
+          "num_trades": 3,
+          "trades": [
+            {
+              "date": "2025-05-27",
+              "action": "BUY",
+              "price": 94.80730075
+            },
+            {
+              "date": "2025-06-10",
+              "action": "SELL",
+              "price": 90.68092171,
+              "profit": -4.13
+            },
+            {
+              "date": "2025-06-13",
+              "action": "BUY",
+              "price": 86.57094135
+            }
+          ],
+          "current_signal": "HOLD"
+        }
+      },
+      "statistics": {
+        "price_stats": {
+          "mean": 90.3519,
+          "median": 89.1106,
+          "std_dev": 4.5181,
+          "min": 83.7229,
+          "max": 100.3743
+        },
+        "volume_stats": {
+          "mean": 377107615.76,
+          "median": 353821280.72,
+          "std_dev": 138326552.95
+        },
+        "market_cap_stats": {
+          "mean": 6763757760.4,
+          "median": 6763757760.4,
+          "std_dev": 340037966.19
+        }
+      }
+    },
+    "ripple": {
+      "cryptocurrency": "ripple",
+      "data_points": 30,
+      "latest_price": 2.16254731,
+      "latest_date": "2025-06-19",
+      "strategies": {
+        "sma": {
+          "strategy": "SMA",
+          "profit": -0.31,
+          "percent_return": -13.79,
+          "num_trades": 6,
+          "trades": [
+            {
+              "date": "2025-06-04",
+              "action": "BUY",
+              "price": 2.24862802
+            },
+            {
+              "date": "2025-06-06",
+              "action": "SELL",
+              "price": 2.09701643,
+              "profit": -0.15
+            },
+            {
+              "date": "2025-06-09",
+              "action": "BUY",
+              "price": 2.2629633
+            },
+            {
+              "date": "2025-06-13",
+              "action": "SELL",
+              "price": 2.19542984,
+              "profit": -0.07
+            },
+            {
+              "date": "2025-06-17",
+              "action": "BUY",
+              "price": 2.25553742
+            },
+            {
+              "date": "2025-06-18",
+              "action": "SELL",
+              "price": 2.16323178,
+              "profit": -0.09
+            }
+          ],
+          "current_signal": "HOLD"
+        },
+        "mean_reversion": {
+          "strategy": "Mean Reversion",
+          "profit": 0.17,
+          "percent_return": 7.36,
+          "num_trades": 6,
+          "trades": [
+            {
+              "date": "2025-05-27",
+              "action": "BUY",
+              "price": 2.30829226
+            },
+            {
+              "date": "2025-06-04",
+              "action": "SELL",
+              "price": 2.24862802,
+              "profit": -0.06
+            },
+            {
+              "date": "2025-06-06",
+              "action": "BUY",
+              "price": 2.09701643
+            },
+            {
+              "date": "2025-06-09",
+              "action": "SELL",
+              "price": 2.2629633,
+              "profit": 0.17
+            },
+            {
+              "date": "2025-06-13",
+              "action": "BUY",
+              "price": 2.19542984
+            },
+            {
+              "date": "2025-06-17",
+              "action": "SELL",
+              "price": 2.25553742,
+              "profit": 0.06
+            }
+          ],
+          "current_signal": "HOLD"
+        }
+      },
+      "statistics": {
+        "price_stats": {
+          "mean": 2.2431,
+          "median": 2.2496,
+          "std_dev": 0.085,
+          "min": 2.097,
+          "max": 2.4284
+        },
+        "volume_stats": {
+          "mean": 2418592299.74,
+          "median": 2198287847.7,
+          "std_dev": 894965943.79
+        },
+        "market_cap_stats": {
+          "mean": 132141601325.51,
+          "median": 132141601325.51,
+          "std_dev": 4878782346.27
+        }
+      }
+    },
+    "binancecoin": {
+      "cryptocurrency": "binancecoin",
+      "data_points": 30,
+      "latest_price": 643.32972768,
+      "latest_date": "2025-06-19",
+      "strategies": {
+        "sma": {
+          "strategy": "SMA",
+          "profit": -19.95,
+          "percent_return": -2.98,
+          "num_trades": 6,
+          "trades": [
+            {
+              "date": "2025-05-26",
+              "action": "BUY",
+              "price": 670.01213939
+            },
+            {
+              "date": "2025-05-30",
+              "action": "SELL",
+              "price": 675.41108128,
+              "profit": 5.4
+            },
+            {
+              "date": "2025-06-05",
+              "action": "BUY",
+              "price": 663.70338541
+            },
+            {
+              "date": "2025-06-06",
+              "action": "SELL",
+              "price": 634.14797159,
+              "profit": -29.56
+            },
+            {
+              "date": "2025-06-09",
+              "action": "BUY",
+              "price": 652.27442855
+            },
+            {
+              "date": "2025-06-13",
+              "action": "SELL",
+              "price": 656.4804964,
+              "profit": 4.21
+            }
+          ],
+          "current_signal": "HOLD"
+        },
+        "mean_reversion": {
+          "strategy": "Mean Reversion",
+          "profit": 10.13,
+          "percent_return": 1.54,
+          "num_trades": 3,
+          "trades": [
+            {
+              "date": "2025-05-31",
+              "action": "BUY",
+              "price": 656.20313808
+            },
+            {
+              "date": "2025-06-10",
+              "action": "SELL",
+              "price": 666.33741432,
+              "profit": 10.13
+            },
+            {
+              "date": "2025-06-15",
+              "action": "BUY",
+              "price": 645.8086677
+            }
+          ],
+          "current_signal": "HOLD"
+        }
+      },
+      "statistics": {
+        "price_stats": {
+          "mean": 661.1298,
+          "median": 659.873,
+          "std_dev": 13.5819,
+          "min": 634.148,
+          "max": 687.6311
+        },
+        "volume_stats": {
+          "mean": 790659824.81,
+          "median": 766133490.22,
+          "std_dev": 299843347.45
+        },
+        "market_cap_stats": {
+          "mean": 96264326554.04,
+          "median": 96264326554.04,
+          "std_dev": 1977047442.34
+        }
+      }
+    }
+  }
+}
