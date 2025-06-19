@@ -336,7 +336,7 @@ def find_best_performers(results: dict) -> dict:
     best_crypto = None
     best_strategy = None
     best_return = float('-inf')
-
+    #iterates through our results and finds the ones with the best values
     for crypto_name, crypto_results in results.items():
         if 'strategies' in crypto_results:
             for strategy_name, strategy_data in crypto_results['strategies'].items():
@@ -352,7 +352,10 @@ def find_best_performers(results: dict) -> dict:
 
 def save_results(results: dict) -> None:
     best_performers = find_best_performers(results)
-
+    #save the current time as analysis_date
+    #save how many cryptos we looked at
+    #save the best performers calculated from our best performers function
+    #save the results
     results_data = {
         'analysis_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
         'cryptocurrencies_analyzed': len(cryptocurrencies),
